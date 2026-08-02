@@ -1,0 +1,261 @@
+{
+  "courses": [
+    {
+      "slug": "single_course.html",
+      "title": "Дизайн интерфейсов",
+      "direction": "design",
+      "directionLabel": "Дизайн",
+      "level": "beginner",
+      "levelLabel": "Начальный",
+      "format": "group",
+      "formatLabel": "Групповой практикум",
+      "duration": "8 недель",
+      "load": "6–8 часов в неделю",
+      "start": "14 сентября 2026",
+      "price": "24 900 ₽",
+      "image": "course-design-v2.png",
+      "alt": "Рабочее место дизайнера с прототипами интерфейсов",
+      "description": "От исследования задачи до интерактивного прототипа.",
+      "skills": [
+        "Исследование задачи и аудитории",
+        "Пользовательские сценарии",
+        "Визуальная система",
+        "Прототипирование и тестирование"
+      ]
+    },
+    {
+      "slug": "course-web.html",
+      "title": "Создание сайтов",
+      "direction": "development",
+      "directionLabel": "Разработка",
+      "level": "beginner",
+      "levelLabel": "Начальный",
+      "format": "group",
+      "formatLabel": "Групповой практикум",
+      "duration": "10 недель",
+      "load": "7–9 часов в неделю",
+      "start": "28 сентября 2026",
+      "price": "29 900 ₽",
+      "image": "course-web-v2.png",
+      "alt": "Ноутбук с кодом и адаптивным макетом сайта",
+      "description": "Семантическая вёрстка, адаптивность и публикация проекта.",
+      "skills": [
+        "HTML и семантика",
+        "Современный CSS",
+        "JavaScript для интерфейса",
+        "Публикация и проверка"
+      ]
+    },
+    {
+      "slug": "course-marketing.html",
+      "title": "Digital-маркетинг",
+      "direction": "marketing",
+      "directionLabel": "Маркетинг",
+      "level": "beginner",
+      "levelLabel": "Начальный",
+      "format": "self",
+      "formatLabel": "Самостоятельный курс",
+      "duration": "6 недель",
+      "load": "4–6 часов в неделю",
+      "start": "Доступ сразу",
+      "price": "18 900 ₽",
+      "image": "course-marketing-v2.png",
+      "alt": "Рабочее место маркетолога с графиками и контент-планом",
+      "description": "Каналы продвижения, аналитика и понятный контент-план.",
+      "skills": [
+        "Цели и аудитория",
+        "Контент-план",
+        "Рекламные каналы",
+        "Базовая аналитика"
+      ]
+    },
+    {
+      "slug": "course-content.html",
+      "title": "Контент для проектов",
+      "direction": "marketing",
+      "directionLabel": "Маркетинг",
+      "level": "beginner",
+      "levelLabel": "Начальный",
+      "format": "self",
+      "formatLabel": "Самостоятельный курс",
+      "duration": "4 недели",
+      "load": "3–5 часов в неделю",
+      "start": "Доступ сразу",
+      "price": "12 900 ₽",
+      "image": "course-content-v3.png",
+      "alt": "Контент-календарь, редакционные материалы и планшет на рабочем столе",
+      "description": "Редакционная система, тексты и визуальный ритм публикаций.",
+      "skills": [
+        "Редакционная рамка",
+        "Структура текста",
+        "Контент-календарь",
+        "Разбор результата"
+      ]
+    },
+    {
+      "slug": "course-prototyping.html",
+      "title": "Прототипирование",
+      "direction": "design",
+      "directionLabel": "Дизайн",
+      "level": "advanced",
+      "levelLabel": "Продолжающий",
+      "format": "group",
+      "formatLabel": "Групповой практикум",
+      "duration": "5 недель",
+      "load": "5–7 часов в неделю",
+      "start": "12 октября 2026",
+      "price": "19 900 ₽",
+      "image": "course-prototyping-v3.png",
+      "alt": "Работа над интерактивным прототипом и картой пользовательского сценария",
+      "description": "Сложные сценарии, кликабельные прототипы и тестирование.",
+      "skills": [
+        "Карта сценариев",
+        "Компонентная логика",
+        "Интерактивный прототип",
+        "Юзабилити-тест"
+      ]
+    },
+    {
+      "slug": "course-tools.html",
+      "title": "Цифровые инструменты",
+      "direction": "development",
+      "directionLabel": "Разработка",
+      "level": "beginner",
+      "levelLabel": "Начальный",
+      "format": "self",
+      "formatLabel": "Самостоятельный курс",
+      "duration": "3 недели",
+      "load": "3–4 часа в неделю",
+      "start": "Доступ сразу",
+      "price": "9 900 ₽",
+      "image": "course-tools-v3.png",
+      "alt": "Организация рабочих карточек, папок и цифрового чек-листа",
+      "description": "Организация файлов, совместная работа и автоматизация рутины.",
+      "skills": [
+        "Файлы и версии",
+        "Совместная работа",
+        "Шаблоны процессов",
+        "Простые автоматизации"
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "product-design",
+      "slug": "programs.html#product-design",
+      "title": "Дизайн цифрового продукта",
+      "goal": "Собрать и проверить интерфейсный проект",
+      "audience": [
+        "Начинающие дизайнеры"
+      ],
+      "courseIds": [
+        "single_course.html",
+        "course-prototyping.html"
+      ],
+      "duration": "13 недель",
+      "format": "Групповой",
+      "priceRub": 44800,
+      "outcomes": [
+        "Исследование",
+        "Прототип",
+        "Презентация"
+      ],
+      "startDate": "2026-09-14",
+      "status": "planned"
+    },
+    {
+      "id": "small-site",
+      "slug": "programs.html#small-site",
+      "title": "Сайт для собственного проекта",
+      "goal": "Создать и опубликовать небольшой сайт",
+      "audience": [
+        "Самозанятые",
+        "Владельцы проектов"
+      ],
+      "courseIds": [
+        "course-tools.html",
+        "course-web.html"
+      ],
+      "duration": "13 недель",
+      "format": "Смешанный",
+      "priceRub": 39800,
+      "outcomes": [
+        "Структура",
+        "Адаптивная вёрстка",
+        "Публикация"
+      ],
+      "startDate": "2026-09-28",
+      "status": "planned"
+    },
+    {
+      "id": "promotion",
+      "slug": "programs.html#promotion",
+      "title": "Продвижение небольшого проекта",
+      "goal": "Собрать систему контента и продвижения",
+      "audience": [
+        "Самозанятые",
+        "Небольшие команды"
+      ],
+      "courseIds": [
+        "course-content.html",
+        "course-marketing.html"
+      ],
+      "duration": "10 недель",
+      "format": "Самостоятельный",
+      "priceRub": 31800,
+      "outcomes": [
+        "Редакционная рамка",
+        "Контент-план",
+        "Каналы и аналитика"
+      ],
+      "startDate": null,
+      "status": "available"
+    }
+  ],
+  "teachers": [],
+  "teacherPublicationRule": "Публиковать имя, фото, биографию и ссылки только после проверки и согласия специалиста.",
+  "events": [
+    {
+      "id": "choose-design-course",
+      "slug": "event_single.html",
+      "title": "Как выбрать первый курс по дизайну",
+      "type": "Открытая встреча",
+      "description": "Сравнение направлений и форматов",
+      "dateTimeISO": "2026-09-08T19:00:00+03:00",
+      "timezone": "Europe/Moscow",
+      "durationMinutes": 60,
+      "teacherIds": [],
+      "priceRub": 0,
+      "status": "planned",
+      "image": null,
+      "imageAlt": "",
+      "seo": {
+        "title": "Как выбрать первый курс по дизайну"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": "course-load",
+      "slug": "blog_single.html",
+      "title": "Как оценить нагрузку до начала курса",
+      "excerpt": "Как сопоставить расписание, практику и доступное время",
+      "body": "blog_single.html",
+      "category": "Обучение",
+      "tags": [
+        "нагрузка",
+        "формат"
+      ],
+      "authorId": null,
+      "publishedAt": "2026-08-12",
+      "updatedAt": "2026-08-20",
+      "readingMinutes": 6,
+      "cover": null,
+      "coverAlt": "",
+      "relatedCourseIds": [],
+      "seo": {
+        "title": "Как оценить нагрузку до начала курса"
+      }
+    }
+  ]
+}
